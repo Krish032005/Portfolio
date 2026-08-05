@@ -69,7 +69,7 @@ const Center = () => {
 
  </div> 
   
-<div className='absolute bottom-[-250px] border-b-2 border-red-500 w-[95%] ml-'></div>
+<div className='absolute bottom-[-400px] border-b-2 border-red-500 w-[95%] ml-'></div>
    </div>
   )
 }
