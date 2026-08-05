@@ -1,0 +1,16 @@
+#main-head{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 30vw;
+    transform: scaleY(1.9) scaleX(1.05);
+    margin-left: -1rem;
+
+}
+#second-text{
+    font-family: Caveat;
+    
+}
+#second-name{
+    
+    transform: scaleY(1.8);
+}
