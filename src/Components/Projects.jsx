@@ -3,7 +3,7 @@ import "../CSS/Project.css";
 
 const Projects = () => {
   return (
-    <div className='w-full  bg-black px-10 py-8  mt-80'>
+    <div className='w-full h-full bg-black px-10 py-8  '>
 
 {/* Project section title */}
     <div className='flex justify-between items-center'  id="nav-head">

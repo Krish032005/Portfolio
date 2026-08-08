@@ -13,8 +13,8 @@ const Center = () => {
     </div> 
 
     <h1 className='uppercase absolute top-1/2 md:left-[50.6%] left-[53%] -translate-x-1/2 -translate-y-1/2
-          text-red-600/90
-          md:mt-10 -mt-30
+          md:text-red-600/90 text-red-800
+          md:mt-10 -mt-35
           whitespace-nowrap
           tracking-tight
           font-black
@@ -23,7 +23,7 @@ const Center = () => {
             portfolio
       </h1>
 
-   <div className='bg-[#111] z-0 w-[90%] h-50 absolute bottom-0 blur-[150px]'></div>
+   <div className='bg-[#111] z-1 w-[90%] h-50 absolute bottom-0  sm:-mt-10'></div>
 
  <div className='z-10 '>
    {/* Left Text */}

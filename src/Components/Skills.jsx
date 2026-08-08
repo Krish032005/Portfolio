@@ -5,7 +5,7 @@ const Skills = () => {
   return (
    
 
-    <div className=' mt-10 px-10  w-full lg:flex gap-4'>
+    <div className=' px-10  pb-8 w-full h-full bg-black lg:flex gap-4'>
 
         {/* Education */}
         <div className='w-1/2  '>
