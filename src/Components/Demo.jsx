@@ -74,9 +74,29 @@ const Demo = () => {
          <div className='md:hidden  z-100 '>
 
             {/* Image  */}
-            <div className='absolute  left-1/2 -translate-x-1/2 '>
-                <img src={profile} alt=""  className='w-80 h-70'/>
+            <div className='absolute top-10 left-1/2 -translate-x-1/2 '>
+                <img src={profile} alt=""  className='w- h-'/>
             </div>
+
+            {/* Left Text */}
+         <div className='absolute px-4  w-30 bottom-45 left-0 '>
+         
+             <h1 className='text-xl'
+             id='second-text'>
+               Hello I'm</h1>
+
+             <h1 className='text-xl font-extrabold uppercase tracking-tight '
+             id='second-name'
+             >krish</h1>
+             <h1 className='uppercase text-xl font-extrabold tracking-tight mt-1'
+             id='second-name'
+             >mehta</h1>
+
+             <h3 className='text-red-500 font-semibold text-lg mt-1'>Frontend</h3>
+            <h3 className='text-red-500 font-semibold text-lg -mt-2'>Developer</h3>
+             
+
+         </div>
           
        
         </div> 
