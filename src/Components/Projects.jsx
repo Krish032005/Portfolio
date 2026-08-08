@@ -23,14 +23,16 @@ const Projects = () => {
    <div className='flex gap-13 mt-8'>
 
      <div className=' w-1/3 ' >  
-      <div className=' border-3 border-[#333] w-full h-70'>
-        <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+      <a href="https://globerra-two.vercel.app/" target='_blank'>
+        <div className=' border-3 border-[#333] w-full h-70'>
+          <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+          </div>
+        <div className='flex items-center justify-around mt-4'>
+          <h1 className='text-[#f70a0a] font-semibold text-5xl ml-[-2rem]' id='number'>01</h1>
+          <h1 className='font-bold text-2xl'>Globerra <p className='text-xl font-semibold'>AI- Trip planner</p></h1>
+          <i class="ri-arrow-right-long-line font-extralight text-4xl "></i>
         </div>
-      <div className='flex items-center justify-around mt-4'>
-        <h1 className='text-[#f70a0a] font-semibold text-5xl ml-[-2rem]' id='number'>01</h1>
-        <h1 className='font-bold text-2xl'>Globerra <p className='text-xl font-semibold'>AI- Trip planner</p></h1>
-        <i class="ri-arrow-right-long-line font-extralight text-4xl "></i>
-      </div>
+      </a>
     </div>
 
  <div className=' w-1/3 ' >  
@@ -57,7 +59,7 @@ const Projects = () => {
      
    </div>
 
-<div className='border-b-2 border-red-600 w-full mt-10 '></div>
+<div className='border-b border-red-600 w-full mt-10 '></div>
         </div>
   )
 }

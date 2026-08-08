@@ -4,23 +4,24 @@ import Hero from '../assets/hero.png'
 import profile from '../assets/Profile4.png'
 const Center = () => {
   return (
-   <div className='w-full min-h-screen bg-black  relative px-10 mt-[-2rem]'>
+   <div className='w-full min-h-screen bg-black  relative px-10 md:-mt-8 -mt-4 '>
 
     
-  <div 
-        className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-        w-[600px] h-[600px] bg-red-600/30
-        rounded-full blur-[180px]
-  '></div> 
+    <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+          w-150 h-150 bg-red-600/30
+          rounded-full blur-[180px] '>
+    </div> 
 
-  <h1 className='uppercase absolute top-1/2 left-[50.6%] -translate-x-1/2 -translate-y-1/2
-         text-red-600/90
-         mt-10 
-        whitespace-nowrap
-        tracking-tight
-        font-black
-        '
-        id='main-head'>portfolio</h1>
+    <h1 className='uppercase absolute top-1/2 md:left-[50.6%] left-[53%] -translate-x-1/2 -translate-y-1/2
+          text-red-600/90
+          md:mt-10 -mt-30
+          whitespace-nowrap
+          tracking-tight
+          font-black
+          '
+          id='main-head'>
+            portfolio
+      </h1>
 
    <div className='bg-[#111] z-0 w-[90%] h-50 absolute bottom-0 blur-[150px]'></div>
 
@@ -69,7 +70,7 @@ const Center = () => {
 
  </div> 
   
-<div className='absolute bottom-[-320px] border-b-2 border-red-500 w-[95%] ml-'></div>
+<div className='absolute bottom-[-320px] border-b border-red-500 w-[95%] ml-'></div>
    </div>
   )
 }

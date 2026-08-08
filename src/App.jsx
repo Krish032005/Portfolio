@@ -9,9 +9,9 @@ const App = () => {
     <div className='w-full min-h-screen bg-black text-white '>
      <Navbar/>
      <Center/>
-     <Projects/>
+     {/* <Projects/>
      <Skills/>
-     <Footer/>
+     <Footer/> */}
     </div>
   )
 }
