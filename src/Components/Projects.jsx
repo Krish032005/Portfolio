@@ -3,63 +3,72 @@ import "../CSS/Project.css";
 
 const Projects = () => {
   return (
-    <div className='w-full h-full bg-black px-10 py-8  '>
+    <div className='w-full h-full bg-black md:px-10 md:py-8 px-4 py-4  pt-0 z-100 '>
 
 {/* Project section title */}
     <div className='flex justify-between items-center'  id="nav-head">
 
-      <div><h1 className='uppercase font-semibold text-3xl'>selected projects</h1></div>
-
-      <div className='border-t-2 border-amber-50 w-200'></div>
-
-      <div className='flex items-center'>
-        <h1 className='uppercase font-semibold text-lg '>view all projects</h1>
-        <i class="ri-arrow-right-long-line font-extralight text-4xl ml-4 "></i>
+      <div className=' w-full md:w-fit md:text-start text-center'>
+        <h1 className='uppercase font-semibold md:text-3xl text-xl'>View Live projects</h1>
       </div>
+
+      <div className='hidden md:block border-t-2 border-amber-50 w-250'></div>
+
+      
 
     </div>
 
 {/* Projects Cards */}
-   <div className='flex gap-13 mt-8'>
+   <div className='flex md:gap-13 mt-8 md:flex-nowrap flex-wrap'>
 
-     <div className=' w-1/3 ' >  
+     <div className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
-        <div className=' border-3 border-[#333] w-full h-70'>
+        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-70'>
           <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
           </div>
-        <div className='flex items-center justify-around mt-4'>
-          <h1 className='text-[#f70a0a] font-semibold text-5xl ml-[-2rem]' id='number'>01</h1>
+        <div className='flex items-center justify-around md:mt-4 mt-2 mb-4'>
+          <h1 className='text-[#f70a0a] font-semibold text-3xl md:text-5xl md:-ml-8' id='number'>01</h1>
           <h1 className='font-bold text-2xl'>Globerra <p className='text-xl font-semibold'>AI- Trip planner</p></h1>
-          <i class="ri-arrow-right-long-line font-extralight text-4xl "></i>
+          <i class="ri-arrow-right-long-line font-extralight md:text-4xl text-2xl "></i>
         </div>
       </a>
     </div>
 
- <div className=' w-1/3 ' >  
-      <div className=' border-3 border-[#333] w-full h-70'>
-        <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+     <div className=' md:w-1/3 w-full   ' >  
+      <a href="https://globerra-two.vercel.app/" target='_blank'>
+        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-70'>
+          <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+          </div>
+        <div className='flex items-center justify-around md:mt-4 mt-2 mb-4'>
+          <h1 className='text-[#f70a0a] font-semibold text-3xl md:text-5xl md:-ml-8' id='number'>02</h1>
+          <h1 className='md:ml-0,m ml-4 mt-2 font-bold text-2xl'>JobSphere<p className='text-xl font-semibold'>Recruitment & Job Management</p></h1>
+          <i class="ri-arrow-right-long-line font-extralight md:text-4xl text-2xl "></i>
         </div>
-      <div className='flex items-center justify-around mt-4'>
-        <h1 className='text-[#f70a0a] font-semibold text-5xl ml-[-2rem]' id='number'>02</h1>
-        <h1 className='font-bold text-2xl'>JobSphere <p className='text-xl font-semibold'>Recruitment & Job Management </p></h1>
-        <i class="ri-arrow-right-long-line font-extralight text-4xl "></i>
-      </div>
+      </a>
     </div>
 
-     <div className=' w-1/3 ' >  
-      <div className=' border-3 border-[#333] w-full h-70'>
-        <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+    <div className=' md:w-1/3 w-full   ' >  
+      <a href="https://globerra-two.vercel.app/" target='_blank'>
+        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-70'>
+          <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+          </div>
+        <div className='flex items-center justify-around md:mt-4 mt-2 mb-4'>
+          <h1 className='text-[#f70a0a] font-semibold text-3xl md:text-5xl md:-ml-8' id='number'>03</h1>
+          <h1 className='font-bold text-2xl'>Globerra <p className='text-xl font-semibold'>AI- Trip planner</p></h1>
+          <i class="ri-arrow-right-long-line font-extralight md:text-4xl text-2xl "></i>
         </div>
-      <div className='flex items-center justify-around mt-4'>
-        <h1 className='text-[#f70a0a] font-semibold text-5xl ml-[-2rem]' id='number'>03</h1>
-        <h1 className='font-bold text-2xl'>Globerra <p className='text-xl font-semibold'>AI- Trip planner</p></h1>
-        <i class="ri-arrow-right-long-line font-extralight text-4xl "></i>
-      </div>
+      </a>
     </div>
+
+    
+
+ 
+
+    
      
    </div>
 
-<div className='border-b border-red-600 w-full mt-10 '></div>
+<div className='border-b border-red-600 w-full md:mt-10 mt-6 '></div>
         </div>
   )
 }

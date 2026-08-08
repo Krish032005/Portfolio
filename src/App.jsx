@@ -8,14 +8,12 @@ import Demo from './Components/Demo';
 import DemoFooter from './Components/DemoFooter';
 const App = () => {
   return (
-    <div className='w-full min-h-screen  text-white '>
+    <div className='w-full min-h-screen bg-black  text-white '>
      <Navbar/>
-     {/* <Center/> */}
      <Demo/>
-     {/* <Projects/>
+     <Projects/>
      <Skills/>
      <Footer/>
-     <DemoFooter/> */}
     </div>
   )
 }
