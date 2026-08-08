@@ -29,7 +29,7 @@ const Demo = () => {
         {/* Desktop */}
        <div className='hidden md:block z-100 '>
           {/* Left Text */}
-                <div className='absolute px-4 w-[400px] top-[340px]'>
+                <div className='absolute px-4 w-100 top-85'>
                 
                     <h1 className='text-8xl'
                     id='second-text'>
@@ -52,7 +52,7 @@ const Demo = () => {
                 </div>
        
                 {/* Image  */}
-                <div className='absolute top-[160px] left-1/2 -translate-x-1/2 '>
+                <div className='absolute top-40 left-1/2 -translate-x-1/2 '>
                   <img src={profile} alt=""  className='w-180 h-200'/>
                 </div>
             {/* Right Text */}

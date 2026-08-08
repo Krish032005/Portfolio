@@ -20,13 +20,13 @@ const Footer = () => {
             {/* All Links */}
              <div className=' w-1/3 px-4'>
 
-                <div className=' flex items-center  font-bold text-xl border-b-1 border-red-500 pb-5'>
-                    <button className='px-4 py-3 text-xl rounded-full border-1 border-red-500'><i class="ri-mail-line"></i></button>
+                <div className=' flex items-center  font-bold text-xl border-b border-red-500 pb-5'>
+                    <button className='px-4 py-3 text-xl rounded-full border border-red-500'><i class="ri-mail-line"></i></button>
                     <p className='ml-8'>krish.mehta.382005@gmail.com</p>
                 </div>
                 
                 <div className='mt-5 flex items-center  font-bold text-xl'>
-                    <button className='px-4 py-3  text-xl rounded-full border-1 border-red-500'>
+                    <button className='px-4 py-3  text-xl rounded-full border border-red-500'>
                         <i class="ri-map-pin-line"></i>
                     </button>
                     <p className='ml-8'>Mumbai, India</p>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <div className="absolute w-50 h-50 mt-10 bg-red-500/20 blur-2xl rounded-full">
                 </div>
                 <img
-                    className="  relative z-10 top-[-0px] w-full"
+                    className="  relative z-10 top-0 w-full"
                     src={footer1}
                     alt=""
                 ></img>
