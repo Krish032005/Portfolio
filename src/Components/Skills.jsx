@@ -1,16 +1,38 @@
 import React from 'react'
 import "../CSS/Skills.css";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/all';
 const Skills = () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+  useGSAP(() => {
+  gsap.from("#skills-card", {
+    y: 100,
+    opacity: 0,
+    duration: 1,
+
+    stagger: 0.3,
+
+    scrollTrigger: {
+      trigger: "#skills-card",
+      start: "top 80%",
+      end: "top 50%",
+      scrub: true,
+      markers: true,
+    }
+  });
+});
 
     const skills = ["html & css", "javascript","react","gsap","tailwind","node.js","express.js","sql","mongodb","jwt","postman","token","git & github"];
     
   return (
    
 
-    <div className=' md:px-10 px-4  pb-8 w-full h-full bg-black md:flex block gap-4'>
+    <div  className=' md:px-10 px-4  pb-8 w-full h-full bg-black md:flex block gap-4'>
 
         {/* Education */}
-        <div className='md:w-1/2 w-full '>
+        <div id='skills-card'  className='md:w-1/2 w-full '>
             <h1 className='md:text-start text-center font-semibold text-4xl uppercase'>
                 education
             </h1>
@@ -30,7 +52,7 @@ const Skills = () => {
         </div>
 
         {/* Skills */}
-        <div className='md:w-1/2 md:px-10 w-full px-0'>
+        <div id='skills-card' className='md:w-1/2 md:px-10 w-full px-0'>
 
             <h1 className='md:text-start text-center font-semibold text-4xl uppercase'>
                 skills

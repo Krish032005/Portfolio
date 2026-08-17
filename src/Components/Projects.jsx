@@ -1,8 +1,35 @@
 import React from 'react'
 import "../CSS/Project.css";
 import globerra from "../assets/GloberraHome.jpg";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import {ScrollTrigger} from 'gsap/all';
 
 const Projects = () => {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  useGSAP(() => {
+  gsap.from("#projects", {
+    y: 100,
+    opacity: 0,
+    duration: 1,
+
+    stagger: 0.3,
+
+    scrollTrigger: {
+      trigger: "#projects",
+      start: "top 80%",
+      end: "top 30%",
+      scrub: true,
+      markers: true,
+    }
+  });
+});
+
+
+
+
   return (
     <div className='w-full h-full bg-black md:px-10 md:py-8 px-8 py-4 mt-5 pt-0 z-100 '>
 
@@ -20,9 +47,9 @@ const Projects = () => {
     </div>
 
 {/* Projects Cards */}
-   <div className='flex md:gap-13 md:mt-8 mt-4 md:flex-nowrap flex-wrap'>
+   <div id='projects1' className='flex md:gap-13 md:mt-8 mt-4 md:flex-nowrap flex-wrap'>
 
-     <div className=' md:w-1/3 w-full   ' >  
+     <div id='projects' className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
         <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-60 md:h-70'>
           <img src={globerra} alt=""  className='w-full h-full object-cover'/>
@@ -35,7 +62,7 @@ const Projects = () => {
       </a>
     </div>
 
-     <div className=' md:w-1/3 w-full   ' >  
+     <div id='projects' className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
         <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-60 md:h-70'>
           <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
@@ -48,7 +75,7 @@ const Projects = () => {
       </a>
     </div>
 
-    <div className=' md:w-1/3 w-full   ' >  
+    <div id='projects' className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
         <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-60 md:h-70'>
           <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
