@@ -29,7 +29,7 @@ const Demo = () => {
         {/* Desktop */}
        <div className='hidden md:block z-100 '>
           {/* Left Text */}
-                <div className='absolute px-4 w-100 top-85'>
+                <div className='absolute px-4 w-100 top-85 '>
                 
                     <h1 className='text-8xl'
                     id='second-text'>
@@ -81,7 +81,7 @@ const Demo = () => {
             </div>
 
             {/* Left Text */}
-            <div className='absolute   w-30 top-18 left-3 '>
+            <div className='absolute px-2  w-30 top-23 left-3 '>
             
                 <h1 className='text-xl'
                 id='second-text'>
@@ -99,7 +99,7 @@ const Demo = () => {
 
             </div>
             {/* Right text */}
-            <div className=' absolute right-0 top-36 w-20  p-0   '>
+            <div className=' absolute right-0 top-40 w-20  p-0   '>
        
                 <div className='flex  justify-start items-center mb-1 flex-wrap'>
                         <h1 className='text-red-600 font-bold text-[10px] mr-2'>8+ </h1>
@@ -114,11 +114,11 @@ const Demo = () => {
                     </div>
             </div>
 
-            <div className='absolute top-55 border-b border-red-500 w-[90%] left-1/2 -translate-x-1/2'></div>
+            <div className='absolute top-61 border-b border-red-500 w-[90%] left-1/2 -translate-x-1/2'></div>
             
             {/* About section */}
-            <div className='absolute top-58 left-4 '>
-                <h1 className='font-bold text-lg'>About</h1>
+            <div className='absolute top-64 left-4 '>
+                <h1 className='font-bold text-lg text-red-500'>About</h1>
                 <p className='text-xs flex flex-wrap mt-2'>
                     I design and develop interactive web experiences using
                     React, Tailwind CSS and GSAP with a strong focus on clean
@@ -128,7 +128,7 @@ const Demo = () => {
           
        
         </div> 
-        <div className='absolute md:bottom-9.5 bottom-5 left-1/2 -translate-x-1/2
+        <div className='absolute md:bottom-9.5 bottom-0 left-1/2 -translate-x-1/2
         border-b border-red-500 w-[95%] '></div>
 
 

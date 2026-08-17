@@ -10,12 +10,12 @@ const Skills = () => {
     <div className=' md:px-10 px-4  pb-8 w-full h-full bg-black md:flex block gap-4'>
 
         {/* Education */}
-        <div className='md:w-1/2 w-full'>
+        <div className='md:w-1/2 w-full '>
             <h1 className='md:text-start text-center font-semibold text-4xl uppercase'>
                 education
             </h1>
 
-            <div className='md:px-4 md:mb-0 mb-10 mt-5'>
+            <div className='md:px-4 md:mb-0 mb-5 mt-5'>
                 
                 <div className='flex justify-between mt-3'>
                     <p className='md:text-xl text-sm font-semibold'>Bsc in Information Technology</p>
@@ -26,7 +26,7 @@ const Skills = () => {
                 <p className='font-semibold text-sm md:text-lg'>CGPA 8.90/10</p>
                 </div>
             </div>
-
+            <div className=' md:hidden border-b border-red-600 w-[90%] justify-self-center mb-5  '></div>
         </div>
 
         {/* Skills */}

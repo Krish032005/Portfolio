@@ -1,9 +1,10 @@
 import React from 'react'
 import "../CSS/Project.css";
+import globerra from "../assets/GloberraHome.jpg";
 
 const Projects = () => {
   return (
-    <div className='w-full h-full bg-black md:px-10 md:py-8 px-4 py-4  pt-0 z-100 '>
+    <div className='w-full h-full bg-black md:px-10 md:py-8 px-8 py-4 mt-5 pt-0 z-100 '>
 
 {/* Project section title */}
     <div className='flex justify-between items-center'  id="nav-head">
@@ -19,12 +20,12 @@ const Projects = () => {
     </div>
 
 {/* Projects Cards */}
-   <div className='flex md:gap-13 mt-8 md:flex-nowrap flex-wrap'>
+   <div className='flex md:gap-13 md:mt-8 mt-4 md:flex-nowrap flex-wrap'>
 
      <div className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
-        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-70'>
-          <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
+        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-60 md:h-70'>
+          <img src={globerra} alt=""  className='w-full h-full object-cover'/>
           </div>
         <div className='flex items-center justify-around md:mt-4 mt-2 mb-4'>
           <h1 className='text-[#f70a0a] font-semibold text-3xl md:text-5xl md:-ml-8' id='number'>01</h1>
@@ -36,7 +37,7 @@ const Projects = () => {
 
      <div className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
-        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-70'>
+        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-60 md:h-70'>
           <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
           </div>
         <div className='flex items-center justify-around md:mt-4 mt-2 mb-4'>
@@ -49,7 +50,7 @@ const Projects = () => {
 
     <div className=' md:w-1/3 w-full   ' >  
       <a href="https://globerra-two.vercel.app/" target='_blank'>
-        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-70'>
+        <div className=' border rounded-xl overflow-hidden border-[#333] w-full h-60 md:h-70'>
           <img src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D" alt=""  className='w-full h-full object-cover'/>
           </div>
         <div className='flex items-center justify-around md:mt-4 mt-2 mb-4'>
