@@ -22,7 +22,7 @@ const Projects = () => {
       start: "top 80%",
       end: "top 30%",
       scrub: true,
-      markers: true,
+     
     }
   });
 });
