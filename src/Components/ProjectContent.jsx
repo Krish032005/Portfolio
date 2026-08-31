@@ -26,6 +26,7 @@ const content = {
 
   globerra: {
     status: 'live',
+    live: 'https://globerra-two.vercel.app/',
     overview:
       "Globerra is an AI-powered travel planning application designed to simplify the process of planning a trip. It allows users to explore destinations, create personalized travel plans, and organize their trip details through an interactive and responsive interface.",
     working: [
@@ -40,6 +41,7 @@ const content = {
 
   jobsphere: {
     status: 'in-progress',
+    live : "",
     overview:
       "JobSphere is a full-stack recruitment and job management platform designed to connect candidates and recruiters in a single application. It provides separate experiences for candidates and recruiters, allowing candidates to discover and apply for jobs while recruiters can create job postings and manage applicants.",
     working: [
@@ -53,59 +55,23 @@ const content = {
     ],
   },
 
-   linkup: {
-
+  linkup: {
     status: 'in-progress',
-
+    live : "",
     overview:
       "LinkUp is a full-stack social networking platform designed to help users connect, communicate, and share content through an interactive and modern web experience.",
-
+      
     working: [
-
-      {
-        title: "User authentication",
-        text:
-          "Users can register and log in securely to create and manage their personal LinkUp account."
-      },
-
-      {
-        title: "Create & manage profile",
-        text:
-          "Users can create their profile, add personal information, upload a profile picture, and manage their account details."
-      },
-
-      {
-        title: "Connect with users",
-        text:
-          "Users can discover other people on the platform and send or manage connection requests to build their network."
-      },
-
-      {
-        title: "Posts & interactions",
-        text:
-          "Users can create posts and interact with content through actions such as liking, commenting, and viewing other users' posts."
-      },
-
-      {
-        title: "Real-time communication",
-        text:
-          "Users can communicate with their connections through a messaging system designed for fast and convenient conversations."
-      },
-
-      {
-        title: "Notifications",
-        text:
-          "The platform provides notifications for important activities such as connection requests, interactions, and messages."
-      },
-
-      {
-        title: "Responsive experience",
-        text:
-          "The interface is designed to provide a consistent and responsive experience across desktop, tablet, and mobile devices."
-      },
-
+      {title: "User authentication",text:"Users can register and log in securely to create and manage their personal LinkUp account."},
+      {title: "Create & manage profile",text:"Users can create their profile, add personal information, upload a profile picture, and manage their account details."},
+      {title: "Connect with users",text:"Users can discover other people on the platform and send or manage connection requests to build their network."},
+      {title: "Posts & interactions",text:"Users can create posts and interact with content through actions such as liking, commenting, and viewing other users' posts."},
+      {title: "Real-time communication",text:"Users can communicate with their connections through a messaging system designed for fast and convenient conversations."},
+      {title: "Notifications",text:"The platform provides notifications for important activities such as connection requests, interactions, and messages."},
+      {title: "Responsive experience",text:"The interface is designed to provide a consistent and responsive experience across desktop, tablet, and mobile devices."},
     ],
-   }
+
+  }
 
 };
 
@@ -261,7 +227,9 @@ const ProjectContent = () => {
               </div>
 
               <a
-                href="#"
+                href={project?.live}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-sm md:text-xl font-bold uppercase tracking-widest text-white hover:text-red-600 transition-colors z-10"
               >
                 View live project
