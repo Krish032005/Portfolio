@@ -123,8 +123,8 @@ const Projects = () => {
         <ProjectCard
           number="03"
           image="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D"
-          title="Globerra"
-          description="AI- Trip planner"
+          title="LinkUp"
+          description="Social media WebApp"
         />
 
       </div>
