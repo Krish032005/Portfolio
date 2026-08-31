@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <>
     {/* Desktop */}
-    <div className='hidden md:block w-full min-h-full  bg-black px-4 py-2 md:px-10 md:pt-4'>
-        <div className='border-t-2 border-red-500 w-full'></div>
+    <div className='hidden md:block w-full min-h-full  bg-black px-4 py-2 md:px-10 md:pt-4 text-white'>
+        <div className='border-t-2 border-red-500 w-full -mt-4'></div>
 
         {/* Final footer */}
         <div className=' w-full h-full mt-12 flex '>

@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+:root{
+    --RED_DEEP : #4a0d0a;
+}

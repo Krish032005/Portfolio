@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../assets/hero.png'
 import profile from '../assets/Profile4.png'
+import "../CSS/Center.css"
 
 const Demo = () => {
   return (

@@ -1,20 +1,16 @@
 import React from 'react'
-import Navbar from "./Components/Navbar";
-import Center from './Components/Center';
-import Projects from './Components/Projects';
-import Skills from './Components/Skills';
-import Footer from './Components/Footer';
-import Demo from './Components/Demo';
+import { Route, Routes } from 'react-router-dom'
+import Home from './Components/Home'
+import ProjectContent from './Components/ProjectContent'
+
 const App = () => {
   return (
-    <div className='w-full min-h-screen bg-black  text-white '>
-     <Navbar/>
-     <Demo/>
-     <Projects/>
-     <Skills/>
-     <Footer/>
-    </div>
+   <Routes>
+    <Route path='/' element={<Home/>} />
+    <Route path='/project-content' element={<ProjectContent/>} />
+   </Routes>
   )
 }
 
 export default App
+
