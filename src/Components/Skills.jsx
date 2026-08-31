@@ -58,9 +58,9 @@ const Skills = () => {
                 skills
             </h1>
 
-            <div id='skills-card' className='flex flex-wrap uppercase gap-6 mt-5 pl-4' id='skills'>
+            <div id='' className='flex flex-wrap uppercase gap-6 mt-5 pl-4'>
                 {skills.map((elem, idx)=>(
-                    <p className='border border-white font-semibold text-lg rounded-lg px-5 py-1 text-center h-10 items-center' key={idx} >{elem}</p>
+                    <p id='skills-card' className='border border-white font-semibold text-lg rounded-lg px-5 py-1 text-center h-10 items-center' key={idx} >{elem}</p>
                 ))}
 
             </div>
